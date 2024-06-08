@@ -10,7 +10,7 @@ st.dataframe(dfe.head(3))
 
 fig, ax = plt.subplots()
 dfe.plot()
-st.puplot(fig)
+st.pyplot(fig)
 
 fig, ax = plt.subplots()
 dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
